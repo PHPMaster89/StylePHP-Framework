@@ -46,7 +46,10 @@
 <div class="container-fluid">
 
     <?php
-        //include '';
+    //include '';
+        
+    if(!isset($_POST['hinzufügen']))
+    {
     ?>
 
     <!--Form-->
@@ -105,4 +108,7 @@
             <td>PHP</td>
         </tr>
     </table>
+    <?php
+    }
+    ?>
 </div>
